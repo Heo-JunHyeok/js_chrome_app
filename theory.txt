@@ -1,0 +1,12 @@
+alert("") : 브라우저 알림 팝업
+
+브라우저 - html - (css, js)
+
+html : !: 기본값
+
+css: head, js: body
+
+concole.log("") : 로그 출력
+
+js: camelCase, python: snake_case
+js: const(값 고정, 기본적), let(가변 가능, 재할당이 필요한 경우)
