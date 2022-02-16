@@ -33,3 +33,5 @@ prompt(): 팝업으로 입력대기(옛날 방법, 요즘은 안씀, 스타일 �
 js: typeof var == python: type(var)
 
 js: else if == python: elif
+
+== : 값만 비교, === : 유형도 비교
