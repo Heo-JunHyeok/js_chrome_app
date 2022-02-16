@@ -29,3 +29,7 @@ function in object
     player.sayHello("lynn");
     player.sayHello("nico");
 
+prompt(): 팝업으로 입력대기(옛날 방법, 요즘은 안씀, 스타일 못 바꿈)
+js: typeof var == python: type(var)
+
+js: else if == python: elif
