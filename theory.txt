@@ -35,3 +35,11 @@ js: typeof var == python: type(var)
 js: else if == python: elif
 
 == : 값만 비교, === : 유형도 비교
+
+querySelector: element를 CSS 방식으로 검색, 첫번째만 찾음
+querySelectorAll: 조건에 맞는 모든 element
+#: id, .:class
+ex) const title = document.querySelector(".hello h1")
+    <div class="hello">
+        <h1>Grab me!</h1>
+    </div>
