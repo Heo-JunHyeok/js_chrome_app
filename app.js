@@ -1,7 +1,11 @@
-const h1 = document.querySelector(".hello h1");
+const loginForm = document.querySelector("#login-form");
+const loginInput = document.querySelector("#login-form input");
 
-function handleTitleClick() {
-  h1.classList.toggle("clicked"); //class에 없으면 추가, 있으면 제거
+const link = document.querySelector("a");
+
+function onLoginSubmit(event) {
+  event.preventDefault();
+  console.log(loginInput.value);
 }
 
-h1.addEventListener("click", handleTitleClick);
+loginForm.addEventListener("submit", onLoginSubmit);
