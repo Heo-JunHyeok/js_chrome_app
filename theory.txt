@@ -48,3 +48,11 @@ ex) const title = document.querySelector(".hello h1")
 submit: 엔터를 누르거나 버튼을 클릭할 때 발생, form의 기본동작
 xxx.preventDefault: 브라우저가 기본동작을 실행하지 못하게 막아준다.
 ex) 브라우저가 submit할 때마다 새로고침하는 것을 막을 수 있다.
+
+string으로만 채워진 변수는 All 대문자
+ex) const HIDDEN_CLASSNAME = "hidden";
+
+string + 변수 `(백틱), ${} 사용
+ex) greeting.innerText = `Hello ${username}`;
+
+localstorage.setItem/getItem/removeItem: 브라우저 기본 제공 DB?
