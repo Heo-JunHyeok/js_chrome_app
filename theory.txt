@@ -56,3 +56,7 @@ string + 변수 `(백틱), ${} 사용
 ex) greeting.innerText = `Hello ${username}`;
 
 localstorage.setItem/getItem/removeItem: 브라우저 기본 제공 DB?
+
+setInterval(a, b(시간)); a를 b마다 반복 
+setTimeout(getClock, 5000); b후에 a실행
+ctl+shift+L : 하나의 변수 한번에 수정가능
