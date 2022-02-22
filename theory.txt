@@ -55,8 +55,11 @@ ex) const HIDDEN_CLASSNAME = "hidden";
 string + 변수 `(백틱), ${} 사용
 ex) greeting.innerText = `Hello ${username}`;
 
-localstorage.setItem/getItem/removeItem: 브라우저 기본 제공 DB?
+localstorage.setItem/getItem/removeItem: 브라우저 기본 제공 저장소(DB아님)
 
 setInterval(a, b(시간)); a를 b마다 반복 
 setTimeout(getClock, 5000); b후에 a실행
 ctl+shift+L : 하나의 변수 한번에 수정가능
+
+JSON.stringify(var): object,array 등을 string으로 
+JSON.parse(string): js가 이해할 수 있는 array

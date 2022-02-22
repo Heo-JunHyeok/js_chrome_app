@@ -6,6 +6,7 @@ const HIDDEN_CLASSNAME = "hidden";
 const USERNAME_KEY = "username";
 
 function paintGreeting(username) {
+  //greeting.innerText = "Hello " + username;
   greeting.innerHTML = `Hello ${username}`;
   greeting.classList.remove(HIDDEN_CLASSNAME);
 }
@@ -15,7 +16,6 @@ function onLoginSubmit(event) {
   loginForm.classList.add(HIDDEN_CLASSNAME);
   const username = loginInput.value;
   localStorage.setItem(USERNAME_KEY, username);
-  //greeting.innerText = "Hello " + username;
   paintGreeting(username);
 }
 
