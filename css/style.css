@@ -15,18 +15,56 @@ img {
 }
 
 h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   color: white;
 }
 
 h2 {
+  font-size: 75px;
   color: white;
+  position: relative;
+  left: 40%;
+  top: 30%;
 }
 
-input[type="text"] {
+input {
+  width: 180px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   background-color: unset;
   outline: none;
   border-top: none;
   border-left: none;
   border-right: none;
   border-bottom: 3px solid white;
+}
+
+#weather {
+  position: relative;
+  width: 30px;
+  margin: 0%;
+}
+
+#quote {
+  position: relative;
+  bottom: 0px;
+}
+
+button {
+  background-color: unset;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+ul {
+  list-style: none;
+  color: white;
 }
